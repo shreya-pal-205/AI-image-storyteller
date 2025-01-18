@@ -48,5 +48,5 @@ if st.button("Generate"):
 
         # generate details
         generated_details = image_and_query(img,query)
-        st.subheader("Generated Details....")
+        st.subheader("Generated story from the image....")
         st.write(generated_details)
